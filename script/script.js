@@ -66,7 +66,7 @@ document.getElementById("btnEnviar").addEventListener("click", async () => {
   const doc = new jsPDF();
 
   doc.setFontSize(16);
-  doc.text("Relatório de Flange", 20, 20);
+  doc.text("Relatório de Punchlist", 20, 20);
   doc.setFontSize(12);
   doc.text(`Matrícula: ${matricula}`, 20, 40);
   doc.text(`Obra: ${obra}`, 20, 50);
